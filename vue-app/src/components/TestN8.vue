@@ -1,5 +1,5 @@
 <script setup>
-import TestN6 from "./TestN6.vue";
+import TestN9 from "./TestN9.vue";
 const props = defineProps({
   value: String
 })
@@ -7,8 +7,8 @@ const props = defineProps({
 
 <template>
   <div>
-    テスト5
-    <TestN6 :value="props.value"/>
+    テスト8
+    <TestN9 :value="props.value"/>
   </div>
 </template>
 

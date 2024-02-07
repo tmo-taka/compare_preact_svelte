@@ -1,8 +1,9 @@
 <script>
-    export let value;
+import TestN6 from '$lib/components/TestN6.svelte'
+export let value;
 </script>
 
 <div>
     テスト5
-    <div>{value}</div>
+    <TestN6 value={value}/>
 </div>
